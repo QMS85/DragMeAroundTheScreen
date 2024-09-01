@@ -1,0 +1,26 @@
+#draggable-elem {
+  position: absolute;
+  background-color: #ffffff;
+  font-size: 1.6em;
+  width: 8em; 
+  height: 8em; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.3em;
+  cursor: move;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, #a3d0f1, #021560);
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
